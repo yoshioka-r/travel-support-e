@@ -25,7 +25,7 @@ public class FileController {
     	
         MultipartFile mfile = fileForm.getMultipartFile();
         String fileName = mfile.getOriginalFilename();
-        Path filePath = Paths.get("C:/pleiades/2022-12/workspace/spring-chap3-parameter/src/main/resources/static/img/" + fileName);
+        Path filePath = Paths.get("C:/pleiades/2022-12/workspace/travel-support-e/src/main/resources/static/img/" + fileName);
         
         try {
         	Files.copy(mfile.getInputStream(), filePath);
