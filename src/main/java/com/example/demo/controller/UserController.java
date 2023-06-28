@@ -94,6 +94,7 @@ public class UserController {
 		return "register";
 	}
 
+	//新規登録
 	@PostMapping("/register")
 	public String store(
 			@RequestParam(name = "NAME", required = false) String name,

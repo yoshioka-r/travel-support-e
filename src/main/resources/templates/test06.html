@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>テスト</title>
+<style>
+	div {
+		position: absolute;
+		top: 100px;
+		left: 100px;
+	}
+	
+	div p {
+		border: solid red;
+		background-color: yellow;
+		height: 300px;
+		width: 300px;
+	}
+	
+	div #AAA {
+		border: solid black;
+		background-color: green;
+		height: 30px;
+		width: 100px;
+		
+		position: absolute;
+		top: 10%;
+		left: 10%;
+	}
+	
+	div #BBB {
+		border: solid black;
+		background-color: green;
+		height: 30px;
+		width: 100px;
+		
+		position: absolute;
+		top: 30%;
+		left: 30%;
+	}
+</style>
+</head>
+<body>
+<h1>位置調整</h1>
+
+<div>
+	<p></p>	
+	<span id="AAA">テスト1</span>
+	<span id="BBB">テスト2</span>
+</div>
+</body>
+</html>
