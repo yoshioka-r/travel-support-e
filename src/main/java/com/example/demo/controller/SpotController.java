@@ -10,45 +10,87 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import com.example.demo.entity.Pref;
+import com.example.demo.entity.Restaurant;
 import com.example.demo.entity.Spot;
 import com.example.demo.repository.PrefRepository;
+import com.example.demo.repository.RestaurantRepository;
 import com.example.demo.repository.SpotRepository;
 
 @Controller
 public class SpotController {
-	
+
 	@Autowired
 	PrefRepository prefRepository;
-	
+
 	@Autowired
 	SpotRepository spotRepository;
+	
+	@Autowired
+	RestaurantRepository restaurantRepository;
 
 	//スポット画面を表示
 	@GetMapping("/pref/{id}")
 	public String show(
 			@PathVariable("id") Integer id,
 			Model m) {
-		
+
 		Pref pref = null;
-		
+
 		Optional<Pref> record = prefRepository.findById(id);
-		
+
 		if (record.isEmpty() == false) {
 			pref = record.get();
 		}
-		
+
 		List<Spot> spots = spotRepository.findAllByPrefId(id);
-		
+
 		m.addAttribute("pref", pref);
 		m.addAttribute("spots", spots);
-		
+
 		return "pref";
 	}
+
+	//詳細画面表示
+	@GetMapping("/detail/{spotId}")
+	public String dindex(
+			@PathVariable("spotId") Integer spotId,
+			Model m) {
+		
+
+		return "spotDetail";
+	}
+
+	//おすすめ宿一覧表示
+	@GetMapping("/inn/{spotId}")
+	public String iindex(
+			@PathVariable("spotId") Integer spotId,
+			Model m) {
+		return "inn";
+	}
+
+	//おすすめレストラン一覧表示
+	@GetMapping("/restaurant/{spotId}")
+	public String rindex(
+			@PathVariable("spotId") Integer spotId,
+			Model m) {
+		
+		List<Restaurant> restaurants = restaurantRepository.findAllBySpotId(spotId);
+		
+		
+		Spot spot = null;
+		Optional<Spot> record = spotRepository.findById(spotId);
+
+		if (record.isEmpty() == false) {
+			spot = record.get();
+		}
+		
 	
-//	@GetMapping("/pref")
-//	public String index(
-//			Model model) {
-//		return "pref";
-//	}
+		m.addAttribute("restaurants", restaurants);
+		m.addAttribute("spot", spot);
+		
+		return "restaurant";
+	}
 	
+	
+
 }

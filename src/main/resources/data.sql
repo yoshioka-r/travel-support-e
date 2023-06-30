@@ -3,7 +3,7 @@ INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/skagik
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/skitani.jpg','木谷沢渓流(Kitanizawa Keiryu)', '鳥取県日野郡江府町江尾475','日本百名山の一つ、中国地方最高峰の「大山」の自然の恵みを受け、良質の天然水と美味しい空気が魅力の奥大山を象徴する渓流。耳に届けられるせせらぎの音や小鳥たちの鳴き声などに癒され、目の前に広がる光景は神秘的。' );
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/skoyama.jpg','湖山池(Koyama Ike)', '鳥取県鳥取市湖山町南','砂丘の発達によって日本海から分離してできた湖。湖面には大小の島がある。岸から橋で結ばれた公園は、桜の名所だ。語り部が案内する遊覧船も運航。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/sdaisen.jpg','大山(Daisen)', '鳥取県西伯郡大山町大山','日本百名山に名を連ねる標高1709mの山。古くから神聖な山として崇められる。夏山登山、キャンプ、スキーなど四季を通じてアウトドアライフを楽しむ観光客で賑わっている。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/stomsoya.jpg', '大山トム・ソーヤ牧場(Daisen Tom Soya Bokujyou)', '鳥取県米子市岡成６２２－２','「めぇーめぇーランド」は14種、約160頭の動物、「わんわんランド」は約40頭のイヌとふれあえる。ポニーの乗馬、ヤギの搾乳体験も楽しめる。アルパカの散歩タイムも必見。' );
+INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/stomsoya.jpg', '大山トム・ソーヤ牧場(Daisen Tom Soya Bokujyo)', '鳥取県米子市岡成６２２－２','「めぇーめぇーランド」は14種、約160頭の動物、「わんわんランド」は約40頭のイヌとふれあえる。ポニーの乗馬、ヤギの搾乳体験も楽しめる。アルパカの散歩タイムも必見。' );
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/schugoku.jpg','中国庭園燕趙園(Chugoku Teien Enchoen)',  '鳥取県東伯郡湯梨浜町引地５６５－１','鳥取県と中国河北省の友好のシンボルとして建設された国内最大級の本格的中国庭園。設計から資材の調達・加工まで、すべて中国で行われた。毎日開催の中国雑技ショーは必見。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/ssakyu.jpg','鳥取砂丘(Tottori Sakyu)', '鳥取県鳥取市福部町湯山','東西約16km、南北約2.4kmに広がり、そのうち観光地となっている砂丘は、天然記念物にも指定されている。メインの入り口は砂丘会館向かいにあり、周辺にはレストハウスやみやげ店がそろっている。' );
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1,'/img/stottorijyo.jpg', '鳥取城跡(Tottorijyo Ato)', '鳥取県鳥取市東町','鳥取市街を一望する久松山にある城跡。現在は石垣や櫓、内堀跡などが残っている。周囲は、桜の名所で知られる久松公園として整備されている。' );
@@ -14,13 +14,13 @@ INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/smisas
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sinasa.jpg','稲佐の浜(Inasa no Hama)',  '島根県出雲市大社町杵築北','全国的には神無月と呼ばれる旧暦の10月だが、出雲では神有月と呼び、全国の神々が出雲に集まるという。神々はこの浜から出雲に上陸すると伝えられ、旧暦の10月10日には神迎神事が行われるパワースポットとして知られる。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sizumo.jpg','出雲大社(Izumo Taisha)',  '島根県出雲市大社町杵築東１９５','縁結びの神として名高い大国主大神を祀り、年間約200万人もの参拝者が訪れる神社。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sshimanekaiyoukan.jpg','しまね海洋館アクアス(Shimane Kaiyoukan Akuasu)', '島根県浜田市久代町１１１７－２','美しい海岸線が続く島根県立石見海浜公園内にある水族館。海底トンネルや逆L字型水槽、タッチプールなど、工夫を凝らした展示で世界の海からやってきた生物とふれあえる。' );
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sshinjikogobiusu.jpg','宍道湖自然館ゴビウス(Shinjiko sjizenkan Gobiusu)',  '島根県出雲市園町１６５９－５','島根県の河川や宍道湖、中海に暮らす生き物、約200種10000点を展示する。子供から大人まで楽しめる水族館。土・日曜には解説を交えて魚が餌を食べる様子を紹介している。');
+INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sshinjikogobiusu.jpg','宍道湖自然館ゴビウス(Shinjiko sizenkan Gobiusu)',  '島根県出雲市園町１６５９－５','島根県の河川や宍道湖、中海に暮らす生き物、約200種10000点を展示する。子供から大人まで楽しめる水族館。土・日曜には解説を交えて魚が餌を食べる様子を紹介している。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/syuhi.jpg','宍道湖夕日スポット(Shinjiko Yuhi Spot)', '島根県松江市袖師町','小泉八雲や田山花袋など多くの文豪に愛された宍道湖の夕景の美しさは絶景。日本夕陽百選にも選定され「水の都松江」の象徴。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/stamatsukuri.jpg','玉造温泉(Tamatsukuri Onsen)',  '島根県松江市玉湯町玉造','『出雲国風土記』にも登場、平安時代には清少納言が『枕草子』で名湯とたたえた。古代、特産のメノウで勾玉を作る玉作部の里だったことが名の由来。温泉街の中央を宍道湖に注ぐ玉湯川が流れる。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sdangyo.jpg','壇鏡の滝(Dangyo no Taki)',  '島根県隠岐郡隠岐の島町那久','壇鏡神社社殿両側にある高さ約40mに及ぶ2本の滝。向かって右側の滝が雄滝、左側が雌滝。昔から闘牛大会参加者の清めの水、長寿の水としても重宝され「名水百選」にも選ばれている。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2,'/img/syushien.jpg', '日本庭園由志園(Nihonteien Yushien)',  '島根県松江市八束町波入１２６０－２','大輪のボタンをはじめ、四季折々の花や自然が観賞できる1万坪の回遊式日本庭園。');
 INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/shinomisaki.jpg','日御碕神社(Hinomisaki Jinjya)',  '島根県出雲市大社町日御碕４５５','社殿は、徳川三代将軍の家光によって着工以来10年もの歳月をかけて建てられた権現造り。国の重要文化財に指定されている。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sfogel.jpg','松江フォーゲルパーク(Matsue Vogelpark)', '島根県松江市大垣町５２','世界でも珍しい花と鳥の公園。国内最大級の規模を誇る室内ガーデンに年中満開の約1400品種のベゴニア、フクシアを中心とする花がある。園内各所で90種400羽の熱帯の鳥や水鳥などと出会える。');
+INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sfogel.jpg','松江フォーゲルパーク(Matsue fogelpark)', '島根県松江市大垣町５２','世界でも珍しい花と鳥の公園。国内最大級の規模を誇る室内ガーデンに年中満開の約1400品種のベゴニア、フクシアを中心とする花がある。園内各所で90種400羽の熱帯の鳥や水鳥などと出会える。');
 
 -- Prefsテーブルデータ
 INSERT INTO prefs(name) VALUES('鳥取県');
@@ -116,22 +116,44 @@ INSERT INTO plans(plan) VALUES('朝食つき');
 INSERT INTO plans(plan) VALUES('夕食・朝食つき');
 
 -- linksテーブルデータ??
---INSERT INTO links(spot_id, link) VALUES(, '');
+INSERT INTO links(spot_id, link) VALUES(1, '');
+INSERT INTO links(spot_id, link) VALUES(1, '');
+INSERT INTO links(spot_id, link) VALUES(3, '');
+INSERT INTO links(spot_id, link) VALUES(4, '');
+INSERT INTO links(spot_id, link) VALUES(5, '');
+INSERT INTO links(spot_id, link) VALUES(6, '');
+INSERT INTO links(spot_id, link) VALUES(7, '');
+INSERT INTO links(spot_id, link) VALUES(8, '');
+INSERT INTO links(spot_id, link) VALUES(9, '');
+INSERT INTO links(spot_id, link) VALUES(10, '');
+INSERT INTO links(spot_id, link) VALUES(11, '');
+INSERT INTO links(spot_id, link) VALUES(12, '');
+INSERT INTO links(spot_id, link) VALUES(13, '');
+INSERT INTO links(spot_id, link) VALUES(14, '');
+INSERT INTO links(spot_id, link) VALUES(15, '');
+INSERT INTO links(spot_id, link) VALUES(16, '');
+INSERT INTO links(spot_id, link) VALUES(17, '');
+INSERT INTO links(spot_id, link) VALUES(18, '');
+INSERT INTO links(spot_id, link) VALUES(19, '');
+INSERT INTO links(spot_id, link) VALUES(20, '');
+INSERT INTO links(spot_id, link) VALUES(21, '');
+INSERT INTO links(spot_id, link) VALUES(22, '');
+
 
 -- restaurantsテーブルデータ??
-INSERT INTO restaurants(spot_id, name, outline) VALUES(1, 'カフェテリア・アぺゼ', '鳥取県日野郡江府笠良原にある、カフェ・ソフトクリーム屋さん。ランチ予算は1000台。奥大山ブルーベリーファーム内にあるカフェで、ブルーベリー狩りをしなくても利用できる。とれたてのブルーベリーを使ったソフトクリームやジュース、ドーナツなどを販売している。');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(1, 'Mr.Burger', '	鳥取県西伯郡伯耆町大内1069-50 桝水フィールドステーション 2Fにある。ハンバーガーメインのレストラン。大山鶏や地元産野菜などが使われたハンバーガーは細部までこだわりがあり、ボリューム抜群で自家製燻製ベーコンとオリジナルBBQソースの相性抜群。');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(2, 'こだちしいたけ園', '鳥取県日野郡江府町大字御机７８６－２にある。栽培で育てられた肉厚シイタケの鉄板焼き等がいただける、大山の隠れた人気店。');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(3, 'ロコロコ', '鳥取大学前駅周辺にあるメキシコ料理屋さん、最大席数120席の開放感ある店内となっている。');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(4, 'ビアホフ　ガンバリウス', '種類豊富なビールを味わえる料理屋さん');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(5, '真名井ばあちゃんのせせらぎレストラン', 'いちごのパフェが目を引く、海鮮も用意しているお店');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(6, 'スムース', 'ランチ予算は2000円以下、メキシコ料理カフェ屋さん');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(7, '砂丘の家レイガーデンカフェ', '鳥取県地産地消のメニューがそろっており、洋食で少し贅沢をするならここ。');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(8, 'カフェ・ダールミュゼ', '鳥取県立博物館内にある、知る人ぞ知る隠れ家的本格レストラン');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(9, 'ヒッポッポ', 'カレーやハンバーグがあるカフェレストラン');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(10, 'ぱにーに湯梨浜店', '景色が綺麗で、足湯も楽しめるカフェ併設のパンとスイーツのお店');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(11, 'ふるーるの丘', 'スープ、ジェラート・アイスクリームが楽しめるカフェ。');
-INSERT INTO restaurants(spot_id, name, outline) VALUES(12, '茶田屋', '居酒屋、食堂');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(1, '/img/rapeze.jpg', 'カフェテリア・アぺゼ',  '鳥取県日野郡江府笠良原にある、カフェ・ソフトクリーム屋さん。ランチ予算は1000台。奥大山ブルーベリーファーム内にあるカフェで、ブルーベリー狩りをしなくても利用できる。とれたてのブルーベリーを使ったソフトクリームやジュース、ドーナツなどを販売している。');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(1, '/img/rburger.jpg','Mr.Burger',  '	鳥取県西伯郡伯耆町大内1069-50 桝水フィールドステーション 2Fにある。ハンバーガーメインのレストラン。大山鶏や地元産野菜などが使われたハンバーガーは細部までこだわりがあり、ボリューム抜群で自家製燻製ベーコンとオリジナルBBQソースの相性抜群。');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(2,'/img/rshiitake.jpg', 'こだちしいたけ園',  '鳥取県日野郡江府町大字御机７８６－２にある。栽培で育てられた肉厚シイタケの鉄板焼き等がいただける、大山の隠れた人気店。');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(3, '/img/rlokoloko.jpg', 'ロコロコ', '鳥取大学前駅周辺にあるメキシコ料理屋さん、最大席数120席の開放感ある店内となっている。');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(4, '/img/rbiahohu.jpg','ビアホフ　ガンバリウス',  '種類豊富なビールを味わえる料理屋さん');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(5, '/img/robaachan.jpg','真名井ばあちゃんのせせらぎレストラン',  'いちごのパフェが目を引く、海鮮も用意しているお店');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(6, '/img/rsmooth.jpg','スムース',  'ランチ予算は2000円以下、メキシコ料理カフェ屋さん');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(7, '/img/rsunaoka.jpg','砂丘の家レイガーデンカフェ',  '鳥取県地産地消のメニューがそろっており、洋食で少し贅沢をするならここ。');
+INSERT INTO restaurants(spot_id,img,  name, outline) VALUES(8, '/img/rdarumyuze.jpg','カフェ・ダールミュゼ',  '鳥取県立博物館内にある、知る人ぞ知る隠れ家的本格レストラン');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(9, '/img/rhipopo.jpg','ヒッポッポ', 'カレーやハンバーグがあるカフェレストラン');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(10, '/img/rpanini.jpg','ぱにーに湯梨浜店', '景色が綺麗で、足湯も楽しめるカフェ併設のパンとスイーツのお店');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(11, '/img/rfululu.jpg','ふるーるの丘', 'スープ、ジェラート・アイスクリームが楽しめるカフェ。');
+INSERT INTO restaurants(spot_id, img, name, outline) VALUES(12, '/img/rchadaya.jpg','茶田屋',  '居酒屋、食堂');
 
 -- spots_detailテーブルデータ??
 --INSERT INTO spots_detail(spot_id, location, access, price) VALUES(1, '', '', );
