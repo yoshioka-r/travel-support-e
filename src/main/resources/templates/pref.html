@@ -4,10 +4,43 @@
 <head>
 	<meta charset="UTF-8">
 	<title>[[${pref.name}]]</title>
+
+	<style>
+		img {
+			display:inline-flex;
+			height: 300px;
+			width: 300px;
+			object-fit: contain;
+		}
+
+		span{
+			width: 900px;
+			display:inline-block;
+			vertical-align: top;
+		}
+		
+	</style>
+
 </head>
 
 <body>
-<h1>[[${pref.name}]]おすすめスポット</h1>
+	<h1>[[${pref.name}]]おすすめスポット</h1>
+
+	<th:block th:each="spot:${spots}">
+
+	<img th:src="${spot.img}">
+
+	<span>
+		<br><br>	
+		<font size="5"><b>[[${spot.name}]]</b></font><br><br>
+		[[${spot.location}]]<br>
+		[[${spot.outline}]]<br>
+	</span>
+	
+	<div style="display:block"></div>
+
+	
+	</th:block>
 
 
 </body>
