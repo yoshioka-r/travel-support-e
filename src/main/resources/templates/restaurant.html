@@ -19,6 +19,14 @@
 			vertical-align: top;
 		}
 		
+		.fixed_link{
+			position: fixed;
+			top: 20px;
+			right: 20px;
+			background-color: yellow;
+			font-size: 20px;
+		}
+		
 	</style>
 	
 </head>
@@ -26,6 +34,10 @@
 <body>
 
 		<h1>[[${spot.name}]] : 周辺のおすすめ飲食店</h1>
+		
+<!--		<a href="/backSpot" class="fixed_link">前のページに戻る</a>-->
+
+		<a href="javascript: history.back();" class="fixed_link">前のページに戻る</a>
 
 	<th:block th:each="restaurant : ${restaurants}">
 

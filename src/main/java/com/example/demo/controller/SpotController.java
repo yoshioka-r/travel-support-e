@@ -33,7 +33,7 @@ public class SpotController {
 	public String show(
 			@PathVariable("id") Integer id,
 			Model m) {
-
+		
 		Pref pref = null;
 
 		Optional<Pref> record = prefRepository.findById(id);
@@ -49,6 +49,15 @@ public class SpotController {
 
 		return "pref";
 	}
+	
+	
+	//sanin画面に戻る
+	@GetMapping("/back")
+	public String back(
+			Model m) {
+		return "sanin";
+	}
+	
 
 	//詳細画面表示
 	@GetMapping("/detail/{spotId}")
