@@ -34,6 +34,7 @@ CREATE TABLE inns
 (
    id SERIAL PRIMARY KEY,
    spot_id INTEGER,
+   img TEXT,
    name TEXT,
    outline TEXT
   );

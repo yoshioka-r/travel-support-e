@@ -30,28 +30,28 @@ INSERT INTO prefs(name) VALUES('広島県');
 INSERT INTO prefs(name) VALUES('山口県');
 
 --Innsテーブル
-INSERT INTO inns(spot_id, name, outline) VALUES(1,'Hotel & Resort', '大山隠岐国立公園内にあるモダンなホテル。宿泊客用ランドリー設備と駅までの送迎は無料。カフェバー、テラス席のあるレストラン、温泉大浴場を併設。');
-INSERT INTO inns(spot_id, name, outline) VALUES(1,'Auberge', '山隠岐国立公園の中核をなす､1300年の歴史を誇る大山寺の参道脇に位置する。客室からは、四季折々の森の新緑・紅葉・雪景色と四季の移ろいを楽しむことができる。');
-INSERT INTO inns(spot_id, name, outline) VALUES(2,'花水亭', '美保湾を望む落ち着いた雰囲気の温泉ホテル。食事処、バー、カラオケ ラウンジ、テラス、宴会場を併設。温泉大浴場もある。朝食、美容エステ、マッサージ サービスを利用可能。');
-INSERT INTO inns(spot_id, name, outline) VALUES(2,'フェアフィールド', 'ホテルを拠点に蒜山高原の魅力を満喫できる。あえてレストランを併設していないことで、ホテル周辺のグルメやアクティビティを楽しんでいただくことをコンセプトとしている。');
-INSERT INTO inns(spot_id, name, outline) VALUES(3,'観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
-INSERT INTO inns(spot_id, name, outline) VALUES(3,'味覚のお宿', '鳥取マリーナの向かいにある簡素な温泉宿。鳥取砂丘から 6 km。シンプルな和室に、座卓、布団、薄型テレビ、無料 Wi-Fi を完備。海鮮料理の食事処、全面窓から海を一望できる屋内大浴場を併設。');
-INSERT INTO inns(spot_id, name, outline) VALUES(4,'皆生満月', '令和元年5月1日全館新築オープン！全室に温泉露天風呂付の新スタイルRYOKAN。全室オーシャンビュー。世界で流行りのインフィニティ天空露天風呂も。');
-INSERT INTO inns(spot_id, name, outline) VALUES(4,'ホテル大山くろがね', '登山口まで徒歩5分！伯耆の国の大山（百名山）のベースキャンプとして、登山と自然を満喫できる宿泊プランを多数ご用意。季節の料理をご用意。');
-INSERT INTO inns(spot_id, name, outline) VALUES(5,'夕凪の湯お宿', '米子空港からのアクセスも良好な山陰の名所境港にできたばかりの和風旅館。ドーミーインブランド初の和風プレミアムホテルとして、ドーミーインの快適性をそのままに、木の温もりと香り畳の爽快感、和風の柔らかさと艶やかさを持つ');
-INSERT INTO inns(spot_id, name, outline) VALUES(5,'シーサイドホテル海の四季', '全室オーシャンフロントの絶景が人気のホテル型旅館。種類多彩なモダン客室。天然塩湯かけ流しの大浴場・露天風呂・貸切風');
-INSERT INTO inns(spot_id, name, outline) VALUES(6,'望湖楼', '日本唯一の湖上露天風呂をはじめ、室内でも湖のせせらぎを感じて頂ける半露天風呂、鳥取地区最大級の広さを誇る大浴場など全て源泉掛け流しで最高級の癒しを提供。');
-INSERT INTO inns(spot_id, name, outline) VALUES(6,'三朝温泉かけ流し風呂流清荘', 'プライベートドライサウナ×源泉100%かけ流し露天風呂付き客室リニューアル');
-INSERT INTO inns(spot_id, name, outline) VALUES(7,'温泉旅館　四角茂',  '鳥取駅から徒歩 5 分のくつろげる温泉旅館。鳥取砂丘から 8 km、砂の美術館から 9 km。庭園を望むくつろげる客室に、テレビ、ミニ冷蔵庫、お茶セットを完備。布団を備えた和室もある。Wi-Fi 利用可能');
-INSERT INTO inns(spot_id, name, outline) VALUES(8,'グリーンマッチホテル', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
-INSERT INTO inns(spot_id, name, outline) VALUES(9,'観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
-INSERT INTO inns(spot_id, name, outline) VALUES(10,'観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
-INSERT INTO inns(spot_id, name, outline) VALUES(11,'観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
-INSERT INTO inns(spot_id, name, outline) VALUES(12,'観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(1,'/img/ihotel.jpg', 'Hotel & Resort', '大山隠岐国立公園内にあるモダンなホテル。宿泊客用ランドリー設備と駅までの送迎は無料。カフェバー、テラス席のあるレストラン、温泉大浴場を併設。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(1,'/img/iauberge.jpg', 'Auberge', '山隠岐国立公園の中核をなす､1300年の歴史を誇る大山寺の参道脇に位置する。客室からは、四季折々の森の新緑・紅葉・雪景色と四季の移ろいを楽しむことができる。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(2,'/img/ikasuitei.jpg', '華水亭', '美保湾を望む落ち着いた雰囲気の温泉ホテル。食事処、バー、カラオケ ラウンジ、テラス、宴会場を併設。温泉大浴場もある。朝食、美容エステ、マッサージ サービスを利用可能。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(2,'/img/ifairfeld.jpg', 'フェアフィールド', 'ホテルを拠点に蒜山高原の魅力を満喫できる。あえてレストランを併設していないことで、ホテル周辺のグルメやアクティビティを楽しんでいただくことをコンセプトとしている。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(3,'/img/ikansuitei.jpg', '観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(3,'/img/imikaku.jpg', '味覚のお宿', '鳥取マリーナの向かいにある簡素な温泉宿。鳥取砂丘から 6 km。シンプルな和室に、座卓、布団、薄型テレビ、無料 Wi-Fi を完備。海鮮料理の食事処、全面窓から海を一望できる屋内大浴場を併設。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(4,'/img/iminazuki.jpg', '皆生游月', '令和元年5月1日全館新築オープン！全室に温泉露天風呂付の新スタイルRYOKAN。全室オーシャンビュー。世界で流行りのインフィニティ天空露天風呂も。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(4,'/img/ihotelooyama.jpg', 'ホテル大山くろがね', '登山口まで徒歩5分！伯耆の国の大山（百名山）のベースキャンプとして、登山と自然を満喫できる宿泊プランを多数ご用意。季節の料理をご用意。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(5,'/img/iyunagi.jpg', '夕凪の湯お宿', '米子空港からのアクセスも良好な山陰の名所境港にできたばかりの和風旅館。ドーミーインブランド初の和風プレミアムホテルとして、ドーミーインの快適性をそのままに、木の温もりと香り畳の爽快感、和風の柔らかさと艶やかさを持つ');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(5,'/img/iseaside.jpg', 'シーサイドホテル海の四季', '全室オーシャンフロントの絶景が人気のホテル型旅館。種類多彩なモダン客室。天然塩湯かけ流しの大浴場・露天風呂・貸切風');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(6,'/img/iboukorou.jpg', '望湖楼', '日本唯一の湖上露天風呂をはじめ、室内でも湖のせせらぎを感じて頂ける半露天風呂、鳥取地区最大級の広さを誇る大浴場など全て源泉掛け流しで最高級の癒しを提供。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(6,'/img/imisasa.jpg', '三朝温泉かけ流し風呂清流荘', 'プライベートドライサウナ×源泉100%かけ流し露天風呂付き客室リニューアル');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(7,'/img/imarushige.jpg', '温泉旅館　丸茂',  '鳥取駅から徒歩 5 分のくつろげる温泉旅館。鳥取砂丘から 8 km、砂の美術館から 9 km。庭園を望むくつろげる客室に、テレビ、ミニ冷蔵庫、お茶セットを完備。布団を備えた和室もある。Wi-Fi 利用可能');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(8,'/img/igreen.jpg', 'グリーンリッチホテル', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(9,'/img/ikansuitei.jpg', '観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(10,'/img/ikansuitei.jpg', '観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(11,'/img/ikansuitei.jpg', '観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
+INSERT INTO inns(spot_id, img, name, outline) VALUES(12,'/img/ikansuitei.jpg', '観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
 
 -- Inns_detailテーブルデータ
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(1, '鳥取県西伯郡大山町大山１１５−７' , '米子駅バスターミナルより日交大山線50分大山寺下車徒歩5分', '洋室・和洋室', '洋食レストラン', 19800);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(2, '鳥取県西伯郡伯耆町金屋谷７９３−番地109','JR米子駅より送迎サービス有り（無料・事前予約要）', '洋室', '和食レストラン、部屋食', 29000 );
+INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(1, '鳥取県西伯郡伯耆町金屋谷７９３−番地109','JR米子駅より送迎サービス有り（無料・事前予約要）', '洋室', '和食レストラン、部屋食', 29000 );
+INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(2, '鳥取県西伯郡大山町大山１１５−７' , '米子駅バスターミナルより日交大山線50分大山寺下車徒歩5分', '洋室・和洋室', '洋食レストラン', 19800);
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(3, '鳥取県米子市皆生温泉４丁目１９−１０','JR米子駅からバス・タクシーで15分', '洋室、和室', '和会席', 14000);
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(4, '岡山県真庭市蒜山上徳山1385-9','国道482号沿い。米子自動車道、蒜山ICから車で約2分。JR「江尾駅」車約20分。', '和洋室', 'なし', 7900);
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(5, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
@@ -63,7 +63,7 @@ INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(10,
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(11, '鳥取県東伯郡湯梨浜町はわい温泉4-25', '中国自動車道・院庄ＩＣより８０分　/　山陰道・はわいＩCより１０分', '和室', 'バイキング', 14000);
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(12, '鳥取県東伯郡三朝町三朝３０９', '山陰本線倉吉駅から無料送迎(約20分)','和室', '和食レストラン', 5000);
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(13, '鳥取県鳥取市永楽温泉町４５８','鳥取駅北口より徒歩5分。', '和室、洋室', '和食', 7800);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(14, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
+INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(14, '鳥取県鳥取市永楽温泉町１０２番６','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(15, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(16, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(17, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
