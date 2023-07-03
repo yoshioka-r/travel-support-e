@@ -22,7 +22,13 @@ public class Spot{
 		private Integer prefId;
 		
 		@Getter
-		private String img; 
+		private String img1; 
+		
+		@Getter
+		private String img2; 
+		
+		@Getter
+		private String img3; 
 		
 		@Getter
 		private String name; 
@@ -34,18 +40,28 @@ public class Spot{
 		@Getter
 		private String outline; 
 		
+		@Getter
+		private String access; 
+		
+		@Getter
+		private String price; 
+		
 
 		// コンストラクタ
 		public Spot() {
 			
 		}
 
-		public Spot(Integer prefId,String img, String name, String location, String outline) {
+		public Spot(Integer prefId,String img1,String img2,String img3, String name, String location, String outline, String access, String price) {
 			this.prefId = prefId;
-			this.img = img;
+			this.img1 = img1;
+			this.img2 = img2;
+			this.img3 = img3;
 			this.name = name;
 			this.location = location;
 			this.outline = outline;
+			this.access = access;
+			this.price = price;
 		}
 		
 }

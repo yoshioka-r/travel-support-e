@@ -1,26 +1,26 @@
 -- Spotsテーブルデータ
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/skagikake.jpg','鍵掛峠(Kagikake Toge)',  '鳥取県日野郡江府町大河原鍵１５３１−２９','標高約910mに位置する、大山屈指の絶景ポイント。手前に大山のシンボル・ブナ林の絨毯が広がり、その奥に立ちはだかる南壁の山肌とのコントラストは、神秘すら感じるほどの美しさ。紅葉の名所としても有名で、赤やオレンジ、緑といった色とりどりの光景に圧倒されるはず。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/skitani.jpg','木谷沢渓流(Kitanizawa Keiryu)', '鳥取県日野郡江府町江尾475','日本百名山の一つ、中国地方最高峰の「大山」の自然の恵みを受け、良質の天然水と美味しい空気が魅力の奥大山を象徴する渓流。耳に届けられるせせらぎの音や小鳥たちの鳴き声などに癒され、目の前に広がる光景は神秘的。' );
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/skoyama.jpg','湖山池(Koyama Ike)', '鳥取県鳥取市湖山町南','砂丘の発達によって日本海から分離してできた湖。湖面には大小の島がある。岸から橋で結ばれた公園は、桜の名所だ。語り部が案内する遊覧船も運航。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/sdaisen.jpg','大山(Daisen)', '鳥取県西伯郡大山町大山','日本百名山に名を連ねる標高1709mの山。古くから神聖な山として崇められる。夏山登山、キャンプ、スキーなど四季を通じてアウトドアライフを楽しむ観光客で賑わっている。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/stomsoya.jpg', '大山トム・ソーヤ牧場(Daisen Tom Soya Bokujyo)', '鳥取県米子市岡成６２２－２','「めぇーめぇーランド」は14種、約160頭の動物、「わんわんランド」は約40頭のイヌとふれあえる。ポニーの乗馬、ヤギの搾乳体験も楽しめる。アルパカの散歩タイムも必見。' );
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/schugoku.jpg','中国庭園燕趙園(Chugoku Teien Enchoen)',  '鳥取県東伯郡湯梨浜町引地５６５－１','鳥取県と中国河北省の友好のシンボルとして建設された国内最大級の本格的中国庭園。設計から資材の調達・加工まで、すべて中国で行われた。毎日開催の中国雑技ショーは必見。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/ssakyu.jpg','鳥取砂丘(Tottori Sakyu)', '鳥取県鳥取市福部町湯山','東西約16km、南北約2.4kmに広がり、そのうち観光地となっている砂丘は、天然記念物にも指定されている。メインの入り口は砂丘会館向かいにあり、周辺にはレストハウスやみやげ店がそろっている。' );
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1,'/img/stottorijyo.jpg', '鳥取城跡(Tottorijyo Ato)', '鳥取県鳥取市東町','鳥取市街を一望する久松山にある城跡。現在は石垣や櫓、内堀跡などが残っている。周囲は、桜の名所で知られる久松公園として整備されている。' );
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/shakuto.jpg','白兎海岸(Hakuto Kaigan)', '鳥取県鳥取市白兎','神話「因幡の白兎」の舞台として知られる白兎海岸は、日本の渚百選のひとつ。水が綺麗な浜としても知られ、夏場には多くの海水浴客で賑わう。' );
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/shawai.jpg','はわい温泉(Hawai Onsen)',  '鳥取県東伯郡湯梨浜町はわい温泉','明治35年開湯の温泉街。名物は「湖上温泉」で、湖にせり出すように温泉宿が建ち、露天風呂では東郷湖の絶景を眺めながら温泉を楽しめる。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/smasumizu.jpg','桝水高原(Masumizu Kougen)', '鳥取県西伯郡伯耆町岩立桝水高原','大山西側の山麓に広がる「大山桝水高原」。天空リフトに乗って標高900ｍの山頂付近へ登ると、日本海、弓ヶ浜半島、島根半島の大パノラマが一望できるほか、レストランでバーベキューランチなどを楽しむことができる。また、ロマンチックな絶景が広がることからプロポーズの場所に選ばれることも多く、「恋人の聖地」としても人気。' );
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(1, '/img/smisasa.jpg','三朝温泉(Misasa Onsen)', '鳥取県東伯郡三朝町三朝','源義朝の家来が白狼に導かれて発見したと伝わる。三朝の名は、三晩泊まって三回朝を迎えると、どんな難病も治るというところから。ラドンを多量に含む湯は肌ざわりがよく効能の良さで知られる。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sinasa.jpg','稲佐の浜(Inasa no Hama)',  '島根県出雲市大社町杵築北','全国的には神無月と呼ばれる旧暦の10月だが、出雲では神有月と呼び、全国の神々が出雲に集まるという。神々はこの浜から出雲に上陸すると伝えられ、旧暦の10月10日には神迎神事が行われるパワースポットとして知られる。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sizumo.jpg','出雲大社(Izumo Taisha)',  '島根県出雲市大社町杵築東１９５','縁結びの神として名高い大国主大神を祀り、年間約200万人もの参拝者が訪れる神社。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sshimanekaiyoukan.jpg','しまね海洋館アクアス(Shimane Kaiyoukan Akuasu)', '島根県浜田市久代町１１１７－２','美しい海岸線が続く島根県立石見海浜公園内にある水族館。海底トンネルや逆L字型水槽、タッチプールなど、工夫を凝らした展示で世界の海からやってきた生物とふれあえる。' );
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sshinjikogobiusu.jpg','宍道湖自然館ゴビウス(Shinjiko sizenkan Gobiusu)',  '島根県出雲市園町１６５９－５','島根県の河川や宍道湖、中海に暮らす生き物、約200種10000点を展示する。子供から大人まで楽しめる水族館。土・日曜には解説を交えて魚が餌を食べる様子を紹介している。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/syuhi.jpg','宍道湖夕日スポット(Shinjiko Yuhi Spot)', '島根県松江市袖師町','小泉八雲や田山花袋など多くの文豪に愛された宍道湖の夕景の美しさは絶景。日本夕陽百選にも選定され「水の都松江」の象徴。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/stamatsukuri.jpg','玉造温泉(Tamatsukuri Onsen)',  '島根県松江市玉湯町玉造','『出雲国風土記』にも登場、平安時代には清少納言が『枕草子』で名湯とたたえた。古代、特産のメノウで勾玉を作る玉作部の里だったことが名の由来。温泉街の中央を宍道湖に注ぐ玉湯川が流れる。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sdangyo.jpg','壇鏡の滝(Dangyo no Taki)',  '島根県隠岐郡隠岐の島町那久','壇鏡神社社殿両側にある高さ約40mに及ぶ2本の滝。向かって右側の滝が雄滝、左側が雌滝。昔から闘牛大会参加者の清めの水、長寿の水としても重宝され「名水百選」にも選ばれている。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2,'/img/syushien.jpg', '日本庭園由志園(Nihonteien Yushien)',  '島根県松江市八束町波入１２６０－２','大輪のボタンをはじめ、四季折々の花や自然が観賞できる1万坪の回遊式日本庭園。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/shinomisaki.jpg','日御碕神社(Hinomisaki Jinjya)',  '島根県出雲市大社町日御碕４５５','社殿は、徳川三代将軍の家光によって着工以来10年もの歳月をかけて建てられた権現造り。国の重要文化財に指定されている。');
-INSERT INTO  spots(pref_id, img, name, location, outline) VALUES(2, '/img/sfogel.jpg','松江フォーゲルパーク(Matsue fogelpark)', '島根県松江市大垣町５２','世界でも珍しい花と鳥の公園。国内最大級の規模を誇る室内ガーデンに年中満開の約1400品種のベゴニア、フクシアを中心とする花がある。園内各所で90種400羽の熱帯の鳥や水鳥などと出会える。');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/skagikake.jpg', '', '', '鍵掛峠(Kagikake Toge)',  '鳥取県日野郡江府町大河原鍵１５３１−２９','標高約910mに位置する、大山屈指の絶景ポイント。手前に大山のシンボル・ブナ林の絨毯が広がり、その奥に立ちはだかる南壁の山肌とのコントラストは、神秘すら感じるほどの美しさ。紅葉の名所としても有名で、赤やオレンジ、緑といった色とりどりの光景に圧倒されるはず。', '米子道江府ICよりR181号線、482号線経由で奥大山方面へ', '入場料無料');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/skitani.jpg','', '', '木谷沢渓流(Kitanizawa Keiryu)', '鳥取県日野郡江府町江尾475','日本百名山の一つ、中国地方最高峰の「大山」の自然の恵みを受け、良質の天然水と美味しい空気が魅力の奥大山を象徴する渓流。耳に届けられるせせらぎの音や小鳥たちの鳴き声などに癒され、目の前に広がる光景は神秘的。',  '米子自動車道江府ICから車で15分', '1,000円～/１時間');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/skoyama.jpg','', '', '湖山池(Koyama Ike)', '鳥取県鳥取市湖山町南','砂丘の発達によって日本海から分離してできた湖。湖面には大小の島がある。岸から橋で結ばれた公園は、桜の名所だ。語り部が案内する遊覧船も運航。', 'JR鳥取駅から日ノ丸バス吉岡温泉行きで18分、青島公園下車すぐ', '420円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/sdaisen.jpg', '', '','大山(Daisen)', '鳥取県西伯郡大山町大山','日本百名山に名を連ねる標高1709mの山。古くから神聖な山として崇められる。夏山登山、キャンプ、スキーなど四季を通じてアウトドアライフを楽しむ観光客で賑わっている。', 'JR山陰本線米子駅から日本交通観光道路経由大山寺行きバスで54分、終点下車、徒歩10分', '中学生以上900円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/stomsoya.jpg', '', '', '大山トム・ソーヤ牧場(Daisen Tom Soya Bokujyo)', '鳥取県米子市岡成６２２－２','「めぇーめぇーランド」は14種、約160頭の動物、「わんわんランド」は約40頭のイヌとふれあえる。ポニーの乗馬、ヤギの搾乳体験も楽しめる。アルパカの散歩タイムも必見。' , 'JR山陰本線米子駅から日本交通観光道路経由大山寺行きバスで27分、岡成下車、徒歩5分', '高校生以上1,000円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/schugoku.jpg', '', '','中国庭園燕趙園(Chugoku Teien Enchoen)',  '鳥取県東伯郡湯梨浜町引地５６５－１','鳥取県と中国河北省の友好のシンボルとして建設された国内最大級の本格的中国庭園。設計から資材の調達・加工まで、すべて中国で行われた。毎日開催の中国雑技ショーは必見。', '	JR山陰本線松崎駅から徒歩10分', '500円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/ssakyu.jpg', '', '','鳥取砂丘(Tottori Sakyu)', '鳥取県鳥取市福部町湯山','東西約16km、南北約2.4kmに広がり、そのうち観光地となっている砂丘は、天然記念物にも指定されている。メインの入り口は砂丘会館向かいにあり、周辺にはレストハウスやみやげ店がそろっている。' , '	JR鳥取駅から日ノ丸バス鳥取砂丘行きで22分、終点下車すぐ', '学生700円、一般1,400円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1,'/img/stottorijyo.jpg', '', '','鳥取城跡(Tottorijyo Ato)', '鳥取県鳥取市東町','鳥取市街を一望する久松山にある城跡。現在は石垣や櫓、内堀跡などが残っている。周囲は、桜の名所で知られる久松公園として整備されている。' , '	JR鳥取駅から100円循環バス「くる梨」緑コースで7分、仁風閣・県立博物館下車すぐ', '無料');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/shakuto.jpg', '', '','白兎海岸(Hakuto Kaigan)', '鳥取県鳥取市白兎','神話「因幡の白兎」の舞台として知られる白兎海岸は、日本の渚百選のひとつ。水が綺麗な浜としても知られ、夏場には多くの海水浴客で賑わう。' , '	JR鳥取駅から日ノ丸バス鹿野行きで40分、白兎神社前下車、徒歩5分', '無料');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/shawai.jpg', '', '','はわい温泉(Hawai Onsen)',  '鳥取県東伯郡湯梨浜町はわい温泉','明治35年開湯の温泉街。名物は「湖上温泉」で、湖にせり出すように温泉宿が建ち、露天風呂では東郷湖の絶景を眺めながら温泉を楽しめる。', 'JR山陰本線倉吉駅から日本交通はわい温泉経由石脇・小浜行きバスで18分、はわい温泉下車すぐ', '370円～1,200円/温泉毎に異なる');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/smasumizu.jpg', '', '','桝水高原(Masumizu Kougen)', '鳥取県西伯郡伯耆町岩立桝水高原','大山西側の山麓に広がる「大山桝水高原」。天空リフトに乗って標高900ｍの山頂付近へ登ると、日本海、弓ヶ浜半島、島根半島の大パノラマが一望できるほか、レストランでバーベキューランチなどを楽しむことができる。また、ロマンチックな絶景が広がることからプロポーズの場所に選ばれることも多く、「恋人の聖地」としても人気。', '米子自動車道大山高原スマートICから約20分', '天空リフト：高校生以上1,000円' );
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(1, '/img/smisasa.jpg', '', '','三朝温泉(Misasa Onsen)', '鳥取県東伯郡三朝町三朝','源義朝の家来が白狼に導かれて発見したと伝わる。三朝の名は、三晩泊まって三回朝を迎えると、どんな難病も治るというところから。ラドンを多量に含む湯は肌ざわりがよく効能の良さで知られる。', '		JR山陰本線倉吉駅から日ノ丸バス三朝温泉方面行きで20分、三朝温泉下車すぐ', '無料～2,500円/温泉毎に異なる');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/sinasa.jpg', '', '','稲佐の浜(Inasa no Hama)',  '島根県出雲市大社町杵築北','全国的には神無月と呼ばれる旧暦の10月だが、出雲では神有月と呼び、全国の神々が出雲に集まるという。神々はこの浜から出雲に上陸すると伝えられ、旧暦の10月10日には神迎神事が行われるパワースポットとして知られる。', '一畑電車大社線出雲大社前駅から一畑バス日御碕方面行きで8分、稲佐浜下車すぐ', '無料');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/sizumo.jpg', '', '','出雲大社(Izumo Taisha)',  '島根県出雲市大社町杵築東１９５','縁結びの神として名高い大国主大神を祀り、年間約200万人もの参拝者が訪れる神社。', '一畑電車大社線出雲大社前駅から徒歩5分', '拝観料：無料、宝物殿：大人300円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/sshimanekaiyoukan.jpg', '', '', 'しまね海洋館アクアス(Shimane Kaiyoukan Akuasu)', '島根県浜田市久代町１１１７－２','美しい海岸線が続く島根県立石見海浜公園内にある水族館。海底トンネルや逆L字型水槽、タッチプールなど、工夫を凝らした展示で世界の海からやってきた生物とふれあえる。' , 'JR山陰本線波子駅から徒歩10分', '入館料：大人1,550円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/sshinjikogobiusu.jpg', '', '', '宍道湖自然館ゴビウス(Shinjiko sizenkan Gobiusu)',  '島根県出雲市園町１６５９－５','島根県の河川や宍道湖、中海に暮らす生き物、約200種10000点を展示する。子供から大人まで楽しめる水族館。土・日曜には解説を交えて魚が餌を食べる様子を紹介している。', '一畑電車北松江線湖遊館新駅から徒歩10分', '大人500円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/syuhi.jpg', '', '', '宍道湖夕日スポット(Shinjiko Yuhi Spot)', '島根県松江市袖師町','小泉八雲や田山花袋など多くの文豪に愛された宍道湖の夕景の美しさは絶景。日本夕陽百選にも選定され「水の都松江」の象徴。', 'JR松江駅から市営バス南循環線内回りで6分、袖師町西下車すぐ', '無料');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/stamatsukuri.jpg', '', '', '玉造温泉(Tamatsukuri Onsen)',  '島根県松江市玉湯町玉造','『出雲国風土記』にも登場、平安時代には清少納言が『枕草子』で名湯とたたえた。古代、特産のメノウで勾玉を作る玉作部の里だったことが名の由来。温泉街の中央を宍道湖に注ぐ玉湯川が流れる。', 'JR山陰本線玉造温泉駅から一畑バス玉造温泉行きで5分、姫神広場前下車すぐ', '無料～1,500円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/sdangyo.jpg', '', '', '壇鏡の滝(Dangyo no Taki)',  '島根県隠岐郡隠岐の島町那久','壇鏡神社社殿両側にある高さ約40mに及ぶ2本の滝。向かって右側の滝が雄滝、左側が雌滝。昔から闘牛大会参加者の清めの水、長寿の水としても重宝され「名水百選」にも選ばれている。', '西郷港からタクシーで40分', '無料');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2,'/img/syushien.jpg', '', '', '日本庭園由志園(Nihonteien Yushien)',  '島根県松江市八束町波入１２６０－２','大輪のボタンをはじめ、四季折々の花や自然が観賞できる1万坪の回遊式日本庭園。', 'JR松江駅から一畑バス境港駅行きで25分、由志園下車すぐ', '一般(大学生以上)：800～1,200円/シーズン毎に異なる');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/shinomisaki.jpg', '', '', '日御碕神社(Hinomisaki Jinjya)',  '島根県出雲市大社町日御碕４５５','社殿は、徳川三代将軍の家光によって着工以来10年もの歳月をかけて建てられた権現造り。国の重要文化財に指定されている。', '		一畑電車大社線出雲大社前駅から一畑バス日御碕方面行きで26分、日御碕下車すぐ', '入場料：無料、朱印料：500円');
+INSERT INTO  spots(pref_id, img1, img2, img3, name, location, outline, access, price) VALUES(2, '/img/sfogel.jpg', '', '', '松江フォーゲルパーク(Matsue fogelpark)', '島根県松江市大垣町５２','世界でも珍しい花と鳥の公園。国内最大級の規模を誇る室内ガーデンに年中満開の約1400品種のベゴニア、フクシアを中心とする花がある。園内各所で90種400羽の熱帯の鳥や水鳥などと出会える。', '	一畑電車北松江線松江フォーゲルパーク駅からすぐ', '一般(高校生以上)：1,650円');
 
 -- Prefsテーブルデータ
 INSERT INTO prefs(name) VALUES('鳥取県');
@@ -70,39 +70,6 @@ INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(17,
 INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(18, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
 
 
---Spot_imageテーブル??
-INSERT INTO spot_image(spot_id, img) VALUES (1, '');
-INSERT INTO spot_image(spot_id, img) VALUES (2, '');
-INSERT INTO spot_image(spot_id, img) VALUES (3, '');
-INSERT INTO spot_image(spot_id, img) VALUES (4, '');
-INSERT INTO spot_image(spot_id, img) VALUES (5, '');
-INSERT INTO spot_image(spot_id, img) VALUES (6, '');
-INSERT INTO spot_image(spot_id, img) VALUES (7, '');
-INSERT INTO spot_image(spot_id, img) VALUES (8, '');
-INSERT INTO spot_image(spot_id, img) VALUES (9, '');
-INSERT INTO spot_image(spot_id, img) VALUES (10, '');
-INSERT INTO spot_image(spot_id, img) VALUES (11, '');
-INSERT INTO spot_image(spot_id, img) VALUES (12, '');
-INSERT INTO spot_image(spot_id, img) VALUES (13, '');
-INSERT INTO spot_image(spot_id, img) VALUES (14, '');
-INSERT INTO spot_image(spot_id, img) VALUES (15, '');
-INSERT INTO spot_image(spot_id, img) VALUES (16, '');
-INSERT INTO spot_image(spot_id, img) VALUES (17, '');
-INSERT INTO spot_image(spot_id, img) VALUES (18, '');
-INSERT INTO spot_image(spot_id, img) VALUES (19, '');
-INSERT INTO spot_image(spot_id, img) VALUES (20, '');
-INSERT INTO spot_image(spot_id, img) VALUES (21, '');
-INSERT INTO spot_image(spot_id, img) VALUES (22, '');
-
-
-
-
---SpotDetail_imagesテーブル？？
---Inn_imagesテーブル？？
---InnDetail_imagesテーブル？？
---Restaurant_imagesテーブル？？
-
-
 -- Usersテーブルデータ
 INSERT INTO users(name, address, tel, email, password) VALUES('山田太郎', '東京都千代田区', '123-456', 'yamada@mail', 'taro');
 
@@ -115,32 +82,8 @@ INSERT INTO plans(plan) VALUES('夕食つき');
 INSERT INTO plans(plan) VALUES('朝食つき');
 INSERT INTO plans(plan) VALUES('夕食・朝食つき');
 
--- linksテーブルデータ??
-INSERT INTO links(spot_id, link) VALUES(1, '');
-INSERT INTO links(spot_id, link) VALUES(1, '');
-INSERT INTO links(spot_id, link) VALUES(3, '');
-INSERT INTO links(spot_id, link) VALUES(4, '');
-INSERT INTO links(spot_id, link) VALUES(5, '');
-INSERT INTO links(spot_id, link) VALUES(6, '');
-INSERT INTO links(spot_id, link) VALUES(7, '');
-INSERT INTO links(spot_id, link) VALUES(8, '');
-INSERT INTO links(spot_id, link) VALUES(9, '');
-INSERT INTO links(spot_id, link) VALUES(10, '');
-INSERT INTO links(spot_id, link) VALUES(11, '');
-INSERT INTO links(spot_id, link) VALUES(12, '');
-INSERT INTO links(spot_id, link) VALUES(13, '');
-INSERT INTO links(spot_id, link) VALUES(14, '');
-INSERT INTO links(spot_id, link) VALUES(15, '');
-INSERT INTO links(spot_id, link) VALUES(16, '');
-INSERT INTO links(spot_id, link) VALUES(17, '');
-INSERT INTO links(spot_id, link) VALUES(18, '');
-INSERT INTO links(spot_id, link) VALUES(19, '');
-INSERT INTO links(spot_id, link) VALUES(20, '');
-INSERT INTO links(spot_id, link) VALUES(21, '');
-INSERT INTO links(spot_id, link) VALUES(22, '');
 
-
--- restaurantsテーブルデータ??
+-- restaurantsテーブルデータ
 INSERT INTO restaurants(spot_id, img, name, outline) VALUES(1, '/img/rapeze.jpg', 'カフェテリア・アぺゼ',  '鳥取県日野郡江府笠良原にある、カフェ・ソフトクリーム屋さん。ランチ予算は1000台。奥大山ブルーベリーファーム内にあるカフェで、ブルーベリー狩りをしなくても利用できる。とれたてのブルーベリーを使ったソフトクリームやジュース、ドーナツなどを販売している。');
 INSERT INTO restaurants(spot_id, img, name, outline) VALUES(1, '/img/rburger.jpg','Mr.Burger',  '	鳥取県西伯郡伯耆町大内1069-50 桝水フィールドステーション 2Fにある。ハンバーガーメインのレストラン。大山鶏や地元産野菜などが使われたハンバーガーは細部までこだわりがあり、ボリューム抜群で自家製燻製ベーコンとオリジナルBBQソースの相性抜群。');
 INSERT INTO restaurants(spot_id, img, name, outline) VALUES(2,'/img/rshiitake.jpg', 'こだちしいたけ園',  '鳥取県日野郡江府町大字御机７８６－２にある。栽培で育てられた肉厚シイタケの鉄板焼き等がいただける、大山の隠れた人気店。');
@@ -155,18 +98,5 @@ INSERT INTO restaurants(spot_id, img, name, outline) VALUES(10, '/img/rpanini.jp
 INSERT INTO restaurants(spot_id, img, name, outline) VALUES(11, '/img/rfululu.jpg','ふるーるの丘', 'スープ、ジェラート・アイスクリームが楽しめるカフェ。');
 INSERT INTO restaurants(spot_id, img, name, outline) VALUES(12, '/img/rchadaya.jpg','茶田屋',  '居酒屋、食堂');
 
--- spots_detailテーブルデータ??
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(1, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(2, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(3, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(4, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(5, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(6, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(7, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(8, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(9, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(10, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(11, '', '', );
---INSERT INTO spots_detail(spot_id, location, access, price) VALUES(12, '', '', );
 
 
