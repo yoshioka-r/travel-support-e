@@ -1,26 +1,22 @@
 package com.example.demo.controller;
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Base64;
-import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.multipart.MultipartFile;
 
 @Controller
 public class BookingController {
     
+	@GetMapping("/bookingshow")
+		public String show() {
+			return "bookingDetail";
+		}
+	
+	
     @GetMapping("/bookingdetail")
     String detail(Model model) {
     	 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy年MM月dd日");
