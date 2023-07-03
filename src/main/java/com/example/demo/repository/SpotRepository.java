@@ -9,4 +9,5 @@ import com.example.demo.entity.Spot;
 public interface SpotRepository extends JpaRepository<Spot, Integer> {
 	
 	List<Spot>findAllByPrefId(Integer id);
+	List<Spot>findAllById(Integer spotId);
 }

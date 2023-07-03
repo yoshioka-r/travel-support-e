@@ -6,20 +6,21 @@ DROP TABLE IF EXISTS inns_detail;
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS bokkings;
 DROP TABLE IF EXISTS plans;
-DROP TABLE IF EXISTS links;
 DROP TABLE IF EXISTS restaurants;
-DROP TABLE IF EXISTS spots_details;
-DROP TABLE IF EXISTS spot_image;
 
 -- spots Table
 CREATE TABLE spots
 (
    id SERIAL PRIMARY KEY,
    pref_id INTEGER,
-   img TEXT,
+   img1 TEXT,
+   img2 TEXT,
+   img3 TEXT,
    name TEXT,
    location TEXT,
-   outline TEXT
+   outline TEXT,
+   access TEXT,
+   price TEXT
 );
 
 -- Prefs Table
@@ -34,6 +35,7 @@ CREATE TABLE inns
 (
    id SERIAL PRIMARY KEY,
    spot_id INTEGER,
+   img TEXT,
    name TEXT,
    outline TEXT
   );
@@ -78,13 +80,6 @@ CREATE TABLE plans
   plan TEXT
 ); 
 
--- Linksテーブル??
-CREATE TABLE links
-(
-  id SERIAL PRIMARY KEY,
-  spot_id INTEGER,
-  link TEXT
-); 
 
 -- Restaurantsテーブル
 CREATE TABLE restaurants
@@ -96,21 +91,4 @@ CREATE TABLE restaurants
   outline TEXT
 ); 
 
--- Spots_detailテーブル
-CREATE TABLE spots_details
-(
-  id SERIAL PRIMARY KEY,
-  spot_id INTEGER,
-  name TEXT,
-  location TEXT,
-  access TEXT,
-  price INTEGER
-); 
 
--- Spot_imageテーブル??
-CREATE TABLE spot_image
-(
-  id SERIAL PRIMARY KEY,
-  spot_id INTEGER,
-  img TEXT
-); 
