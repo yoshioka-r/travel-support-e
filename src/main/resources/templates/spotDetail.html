@@ -10,8 +10,16 @@
 			width: 400px;
 			height: 300px;
 			object-fit:fill;
+			
 		}
 		
+		.fixed_link{
+			position: fixed;
+			top: 20px;
+			right: 20px;
+			background-color: yellow;
+			font-size: 20px;
+		}
 		
 	</style>
 	
@@ -21,6 +29,8 @@
 
 <th:block th:each="spot : ${spots}">
 		<h1>[[${spot.name}]] : 詳細</h1>
+		
+		<a href="javascript: history.back();" class="fixed_link">前のページに戻る</a>
 
 <table border="1">
 	<tr><th colspan="2">[[${spot.name}]]</th></tr>
@@ -38,7 +48,7 @@
 		<td>[[${spot.price}]]</td>
 	</tr>	
 </table>
-
+<br>
 
 <img th:src="${spot.img1}">
 <img th:src="${spot.img2}">
