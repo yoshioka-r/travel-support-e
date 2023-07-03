@@ -2,32 +2,55 @@
 <head>
 	<meta charset="UTF-8">
 	<title>宿泊施設の詳細ページ</title>
+	
+	<style>
+		img{
+			width:300px;
+			height: 200px;
+			object-fit: cover;
+			padding: 0 10px 10px 0;
+		}	
+		
+		.fixed_link{
+			position: fixed;
+			top: 20px;
+			right: 20px;
+			background-color: yellow;
+			font-size: 20px;
+		}
+		
+	</style>
 </head>
 <body>
-	<h1>宿泊施設の詳細ページ</h1>
-	<span>画像</span>
-	<span>画像</span>
-	<span>画像</span>
+	<h1>[[${inn1.name}]] : 宿泊施設の詳細ページ</h1>
+	
+	<a href="javascript: history.back();" class="fixed_link">前のページに戻る</a>
+	
+	<th:block th:each="inn : ${inns}">
+	<img th:src="${inn.img1}">
+	<img th:src="${inn.img2}">
+	<img th:src="${inn.img3}">
+	
 	<table border="1">
 		<tr>
+			<th>所在地</th>
+			<td>[[${inn.location}]]</td>
+		</tr>
+		<tr>
 			<th>アクセス</th>
-			<th>テストデータ</th>
-	<!--		<td>${inns.type}</td>-->
+			<td>[[${inn.access}]]</td>
 		</tr>
 		<tr>
 			<th>お部屋の種類</th>
-			<th>テストデータ</th>
-	<!--		<td>${inns.type}</td>-->
+			<td>[[${inn.type}]]</td>
 		</tr>
 		<tr>
 			<th>お食事</th>
-			<th>テストデータ</th>
-	<!--		<td>${inns.meal}</td>-->
+			<td>[[${inn.meal}]]</td>
 		</tr>
 		<tr>
 			<th>プラン料金</th>
-			<th>テストデータ</th>
-	<!--		<td>${inns.price}</td>-->
+			<td>[[${inn.price}]]</td>
 		</tr>
 	</table>
 	<hr>

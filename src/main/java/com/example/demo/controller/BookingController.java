@@ -1,18 +1,50 @@
 package com.example.demo.controller;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import com.example.demo.entity.Inn;
+import com.example.demo.entity.InnDetail;
+import com.example.demo.repository.InnDetailRepository;
+import com.example.demo.repository.InnRepository;
 
 @Controller
 public class BookingController {
     
-	@GetMapping("/bookingshow")
-		public String show() {
+	@Autowired
+	InnDetailRepository innDetailRepository;
+	
+	@Autowired
+	InnRepository innRepository;
+	
+	//inns_detail画面の表示
+	@GetMapping("/bookingshow/{innId}")
+		public String show(
+				@PathVariable("innId")Integer innId,
+				Model m) {
+		
+		List<InnDetail> inns = innDetailRepository.findAllByInnId(innId);
+		
+		Optional<Inn> record = innRepository.findById(innId);
+		
+		Inn inn1 = null;
+		if(record.isEmpty() == false) {
+			inn1 = record.get();
+		}
+		
+		m.addAttribute("inns",inns);
+		m.addAttribute("inn1",inn1);
+		
+		
 			return "bookingDetail";
 		}
 	

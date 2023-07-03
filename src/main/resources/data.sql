@@ -50,24 +50,24 @@ INSERT INTO inns(spot_id, img, name, outline) VALUES(11,'/img/ikansuitei.jpg', '
 INSERT INTO inns(spot_id, img, name, outline) VALUES(12,'/img/ikansuitei.jpg', '観水庭', '木造の別館と池を設けた庭園がある。鳥取民藝美術館から徒歩 8 分、鳥取砂丘から 10 km。床から天井まで届く窓からは池を眺められる。男女別の温泉露天風呂と、2 か所に貸切家族風呂がある。');
 
 -- Inns_detailテーブルデータ
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(1, '鳥取県西伯郡伯耆町金屋谷７９３−番地109','JR米子駅より送迎サービス有り（無料・事前予約要）', '洋室', '和食レストラン、部屋食', 29000 );
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(2, '鳥取県西伯郡大山町大山１１５−７' , '米子駅バスターミナルより日交大山線50分大山寺下車徒歩5分', '洋室・和洋室', '洋食レストラン', 19800);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(3, '鳥取県米子市皆生温泉４丁目１９−１０','JR米子駅からバス・タクシーで15分', '洋室、和室', '和会席', 14000);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(4, '岡山県真庭市蒜山上徳山1385-9','国道482号沿い。米子自動車道、蒜山ICから車で約2分。JR「江尾駅」車約20分。', '和洋室', 'なし', 7900);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(5, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(6, '鳥取県鳥取市賀露町北１丁目５−３６','JR山陰線鳥取駅下車～車で約10分。', '和室', '和食レストラン', 7700);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(7, '鳥取県米子市皆生温泉３丁目１１−１','米子ICから車で約10分', '和洋室', '和食レストラン', 23000);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(8, '鳥取県西伯郡大山町大山136-2','ＪＲ米子駅／米子自動車道溝口ＩＣ又は米子ＩＣより車で２０分。', '和室', '和食', 9500);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(9, '鳥取県境港市大正町２１６','境港駅下車徒歩1分。', '和洋室', '和食、洋食', 6000);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(10, '鳥取県米子市皆生温泉３丁目４－３','米子自動車道・米子ＩＣより車で10分。 ＪＲ米子駅よりタクシーで15分。', '洋室', '和食レストラン', 5000);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(11, '鳥取県東伯郡湯梨浜町はわい温泉4-25', '中国自動車道・院庄ＩＣより８０分　/　山陰道・はわいＩCより１０分', '和室', 'バイキング', 14000);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(12, '鳥取県東伯郡三朝町三朝３０９', '山陰本線倉吉駅から無料送迎(約20分)','和室', '和食レストラン', 5000);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(13, '鳥取県鳥取市永楽温泉町４５８','鳥取駅北口より徒歩5分。', '和室、洋室', '和食', 7800);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(14, '鳥取県鳥取市永楽温泉町１０２番６','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(15, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(16, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(17, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
-INSERT INTO inns_detail(inns_id, location, access, type, meal, price) VALUES(18, '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', 8500);
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(1, '/img/ihotel1.jpg', '/img/ihotel2.jpg', '/img/ihotel3.jpg', '鳥取県西伯郡伯耆町金屋谷７９３−番地109','JR米子駅より送迎サービス有り（無料・事前予約要）', '洋室', '和食レストラン、部屋食', '29,000～/泊' );
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(2, '/img/iauberge1.jpg', '/img/iauberge2.jpg', '/img/iauberge3.jpg', '鳥取県西伯郡大山町大山１１５−７' , '米子駅バスターミナルより日交大山線50分大山寺下車徒歩5分', '洋室・和洋室', '洋食レストラン', '19,800～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(3, '/img/ikasuitei1.jpg', '/img/ikasuitei2.jpg', '/img/ikasuitei3.jpg', '鳥取県米子市皆生温泉４丁目１９−１０','JR米子駅からバス・タクシーで15分', '洋室、和室', '和会席', '14,000～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(4, '/img/ifairfeld1.jpg', '/img/ifairfeld2.jpg', '/img/ifairfeld3.jpg', '岡山県真庭市蒜山上徳山1385-9','国道482号沿い。米子自動車道、蒜山ICから車で約2分。JR「江尾駅」車約20分。', '和洋室', 'なし', '7,900～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(5, '', '', '', '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', '8,500～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(6, '', '', '', '鳥取県鳥取市賀露町北１丁目５−３６','JR山陰線鳥取駅下車～車で約10分。', '和室', '和食レストラン', '7,700～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(7, '', '', '', '鳥取県米子市皆生温泉３丁目１１−１','米子ICから車で約10分', '和洋室', '和食レストラン', '23,000～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(8, '', '', '', '鳥取県西伯郡大山町大山136-2','ＪＲ米子駅／米子自動車道溝口ＩＣ又は米子ＩＣより車で２０分。', '和室', '和食', '9,500～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(9, '', '', '', '鳥取県境港市大正町２１６','境港駅下車徒歩1分。', '和洋室', '和食、洋食', '6,000～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(10, '', '', '', '鳥取県米子市皆生温泉３丁目４－３','米子自動車道・米子ＩＣより車で10分。 ＪＲ米子駅よりタクシーで15分。', '洋室', '和食レストラン', '5,000～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(11, '', '', '',  '鳥取県東伯郡湯梨浜町はわい温泉4-25', '中国自動車道・院庄ＩＣより８０分　/　山陰道・はわいＩCより１０分', '和室', 'バイキング', '14,000～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(12, '', '', '',  '鳥取県東伯郡三朝町三朝３０９', '山陰本線倉吉駅から無料送迎(約20分)','和室', '和食レストラン', '5,000～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(13, '', '', '',  '鳥取県鳥取市永楽温泉町４５８','鳥取駅北口より徒歩5分。', '和室、洋室', '和食', '7,800～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(14, '', '', '',  '鳥取県鳥取市永楽温泉町１０２番６','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', '8,500～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(15, '', '', '',  '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', '8,500～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(16, '', '', '', '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', '8,500～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(17, '', '', '', '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', '8,500～/泊');
+INSERT INTO inns_detail(inn_id, img1, img2, img3, location, access, type, meal, price) VALUES(18, '', '', '', '鳥取県鳥取市永楽温泉町６５１','鳥取駅および繁華街から徒歩約8分。タクシー約2分。', '和室', '和食レストラン', '8,500～/泊');
 
 
 -- Usersテーブルデータ

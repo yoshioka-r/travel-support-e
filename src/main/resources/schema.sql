@@ -44,12 +44,15 @@ CREATE TABLE inns
  CREATE TABLE inns_detail
  (
    id SERIAL PRIMARY KEY,
-   inns_id INTEGER,
+   inn_id INTEGER,
+   img1 TEXT,
+   img2 TEXT,
+   img3 TEXT,
    location TEXT,
    access TEXT,
    type TEXT,
    meal TEXT,
-   price INTEGER
+   price TEXT
 );
 
 -- ユーザーテーブル
