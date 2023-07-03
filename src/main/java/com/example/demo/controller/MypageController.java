@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
@@ -29,12 +30,14 @@ public class MypageController {
 	UserRepository userRepository;
     
 	//マイページの表示
-    @GetMapping("/mypage")
+    @GetMapping("/mypage/{name}")
     String showmypage(
-    		@RequestParam(name="name", required=true)String name,
+//    		@RequestParam(name="name", required=true)String name,
+    		@PathVariable("name")String name,
     		Model model) {
+    	System.out.println(name);
     	Optional<User> userInfo = userRepository.findByName(name);
-    	model.addAttribute(userInfo);
+    	model.addAttribute("userInfo", userInfo.get());
     	
         return "mypage";
     }
