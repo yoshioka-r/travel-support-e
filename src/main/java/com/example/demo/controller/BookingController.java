@@ -2,7 +2,6 @@ package com.example.demo.controller;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.demo.entity.Inn;
 import com.example.demo.entity.InnDetail;
 import com.example.demo.repository.InnDetailRepository;
 import com.example.demo.repository.InnRepository;
@@ -34,38 +32,44 @@ public class BookingController {
 		
 		List<InnDetail> inns = innDetailRepository.findAllByInnId(innId);
 		
-		Optional<Inn> record = innRepository.findById(innId);
-		
-		Inn inn1 = null;
-		if(record.isEmpty() == false) {
-			inn1 = record.get();
-		}
-		
 		m.addAttribute("inns",inns);
-		m.addAttribute("inn1",inn1);
 		
-		
-			return "bookingDetail";
-		}
-	
-	
-    @GetMapping("/bookingdetail")
-    String detail(Model model) {
-    	 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy年MM月dd日");
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy年MM月dd日");
     	LocalDate ldt = LocalDate.now();
     	String basedate = ldt.format(dtf);
     	LocalDate today = LocalDate.parse(basedate, dtf);
     	LocalDate promisingfuture = today.plusYears(1);
     	LocalDate schedule = null;
     	String result = null;
-    	model.addAttribute("today", today);
-    	model.addAttribute("promisingfuture", promisingfuture);
-    	model.addAttribute("schedule", schedule);
+    	m.addAttribute("today", today);
+    	m.addAttribute("promisingfuture", promisingfuture);
+    	m.addAttribute("schedule", schedule);
     	
-    	model.addAttribute("result", result);
-    	
-        return "bookingDetail";
-    }
+    	m.addAttribute("result", result);
+		
+			return "bookingDetail";
+		}
+	
+	
+//    @GetMapping("/bookingdetail")
+//    String detail(Model model) {
+//    	 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy年MM月dd日");
+//    	LocalDate ldt = LocalDate.now();
+//    	String basedate = ldt.format(dtf);
+//    	LocalDate today = LocalDate.parse(basedate, dtf);
+//    	LocalDate promisingfuture = today.plusYears(1);
+//    	LocalDate schedule = null;
+//    	String result = null;
+//    	model.addAttribute("today", today);
+//    	model.addAttribute("promisingfuture", promisingfuture);
+//    	model.addAttribute("schedule", schedule);
+//    	
+//    	model.addAttribute("result", result);
+//    	
+//        return "bookingDetail";
+//    }
+	
+	
     @PostMapping("/bookingdetail")
     String showplan(
     		@RequestParam(name="schedule", required=false) LocalDate schedule,

@@ -22,6 +22,9 @@ public class InnDetail{
 		private Integer innId;
 		
 		@Getter
+		private String name;
+		
+		@Getter
 		private String img1; 
 		
 		@Getter
@@ -51,8 +54,9 @@ public class InnDetail{
 			
 		}
 
-		public InnDetail(Integer innId, String img1, String img2, String img3, String location, String access, String type, String meal, String price) {
+		public InnDetail(Integer innId, String name,String img1, String img2, String img3, String location, String access, String type, String meal, String price) {
 			this.innId = innId;
+			this.name = name;
 			this.img1 = img1;
 			this.img2 = img2;
 			this.img3 = img3;
