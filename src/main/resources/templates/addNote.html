@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>トラベルノートの追加</title>
+</head>
+<body>
+	<h1>トラベルノートの追加</h1>
+<!--	<ul th:each="error:${messages}">-->
+<!--		<li>[[${error}]]</li>-->
+<!--	</ul>-->
+		<table border="1">
+			<tr>
+				<th>タイトル</th>
+				<td><input type="text" name="title" form="oneofnote"></td>
+			</tr>
+			<tr>
+				<th>見出し</th>
+				<td><input type="text" name="memo" form="oneofnote"></td>
+			</tr>
+			<tr>
+				<th>記事</th>
+				<td><input type="text" name="article" form="oneofnote"></td>
+			</tr>
+<!--			<th:block th;if="${pathforSave}==null">-->
+<!--			<tr>-->
+<!--				<th>画像1</th>-->
+<!--				<td>-->
+<!--					<form method="post" th:action="@{/uploadingimgfile}" enctype="multipart/form-data" th:object="${fileForm}">-->
+<!--						<input type="file" th:field="*{multipartFile}">-->
+<!--						<input type="submit" value="アップロード">-->
+<!--					</form>-->
+<!--				</td>-->
+<!--			</tr>-->
+<!--			</th:block>-->
+<!--			<th:block th;if="${pathforSave}!=null">-->
+<!--				<input type="hidden" name="img1" th:value="${pathforSave}" form="oneofnote">-->
+<!--				<tr>-->
+<!--					<th>画像1</th>-->
+<!--					<td><img th:src="${pathForSave}"></td>-->
+<!--				</tr>-->
+<!--			</th:block>-->
+	
+		</table>
+	<form th:action="/savenote}" method="post" id="oneofnote">
+		<input type="submit" value="アカウント情報を更新する">
+	</form>
+	
+</body>
+</html>

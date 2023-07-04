@@ -7,6 +7,7 @@ DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS bokkings;
 DROP TABLE IF EXISTS plans;
 DROP TABLE IF EXISTS restaurants;
+DROP TABLE IF EXISTS notes;
 
 -- spots Table
 CREATE TABLE spots
@@ -95,4 +96,18 @@ CREATE TABLE restaurants
   outline TEXT
 ); 
 
+-- notesテーブル
+CREATE TABLE notes
+(
+  id SERIAL PRIMARY KEY,
+  author_id INTEGER,
+  title TEXT,
+  memo TEXT, 
+  added_date TEXT,
+  updated_date TEXT,
+  article TEXT,
+  img1 TEXT,
+  img2 TEXT,
+  img3 TEXT
+); 
 

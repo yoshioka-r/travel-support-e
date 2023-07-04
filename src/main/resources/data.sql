@@ -72,7 +72,8 @@ INSERT INTO inns_detail(inn_id, name, img1, img2, img3, location, access, type, 
 
 -- Usersテーブルデータ
 INSERT INTO users(name, address, tel, email, password) VALUES('山田太郎', '東京都千代田区', '123-456', 'yamada@mail', 'taro');
-INSERT INTO users(name, address, tel, email, password) VALUES('吉岡玲志', '鳥取県米子市', '000-0000', 'yr@example.com', 'yr');
+INSERT INTO users(name, address, tel, email, password) VALUES('吉岡玲志', '鳥取県米子市', '000-0000-0000', 'yr@example.com', 'yr');
+INSERT INTO users(name, address, tel, email, password) VALUES('中田', '東京都千代田区', '123-4567-8901', 'nakada@example.com', 'nakada');
 
 -- Bookingsテーブルデータ
 --INSERT INTO bokkings(inn_id, plan_id, stay_date, people) VALUES();
@@ -98,6 +99,3 @@ INSERT INTO restaurants(spot_id, img, name, outline) VALUES(9, '/img/rhipopo.jpg
 INSERT INTO restaurants(spot_id, img, name, outline) VALUES(10, '/img/rpanini.jpg','ぱにーに湯梨浜店', '景色が綺麗で、足湯も楽しめるカフェ併設のパンとスイーツのお店');
 INSERT INTO restaurants(spot_id, img, name, outline) VALUES(11, '/img/rfululu.jpg','ふるーるの丘', 'スープ、ジェラート・アイスクリームが楽しめるカフェ。');
 INSERT INTO restaurants(spot_id, img, name, outline) VALUES(12, '/img/rchadaya.jpg','茶田屋',  '居酒屋、食堂');
-
-
-
