@@ -6,10 +6,11 @@
 </head>
 <body>
 	<h1>アカウント情報の編集</h1>
+	<span>メールアドレスは別画面から変更してください</span>
 	<th:block th:if="!(${message}.isEmpty())"th:each="error:${message}">
 		[[${error}]]<br>
 	</th:block>
-	<form th:action="/editsubmit" method="post">
+	<form th:action="|/editaccount/${@account.email}|" method="post">
 		<table border="1">
 			<tr>
 				<th>名前</th>
@@ -25,11 +26,11 @@
 			</tr>
 			<tr>
 				<th>メールアドレス</th>
-				<td><input type="text" name="email" th:value="${userInfo.email}"></td>
+				<td>[[${userInfo.email}]]</td>
 			</tr>
 			<tr>
 				<th>パスワード</th>
-				<td><input type="password" name="password" th:value="${userInfo.password}"></td>
+				<td>※セキュリティのため非表示にしています</td>
 			</tr>
 		</table>
 	<input type="submit" value="アカウント情報を更新する">

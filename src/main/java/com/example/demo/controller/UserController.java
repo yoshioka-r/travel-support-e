@@ -64,6 +64,8 @@ public class UserController {
 			if (optionalUser.isEmpty() == false) {
 				User user = optionalUser.get();
 				account.setName(user.getName());
+				account.setEmail(user.getEmail());
+				
 				return "sanin";
 
 			} else {

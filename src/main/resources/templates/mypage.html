@@ -9,7 +9,7 @@
 	[[${@account.name}]]さんのマイページ
 
 	<h3>アカウント情報</h3>
-	<form th:action="|/editaccount/${@account.name}|" method="post">
+	<form th:action="|/editaccount/${@account.email}|" method="post">
 		<table border="1">
 			<tr>
 				<th>名前</th>
@@ -32,7 +32,7 @@
 				<td>[[${userInfo.password}]]</td>
 			</tr>
 		</table>
-		<a th:href="|/editaccount/${@account.name}|">アカウント情報を編集する</a>
+		<a th:href="|/editaccount/${@account.email}|">アカウント情報を編集する</a>
 	</form>
 </body>
 </html>

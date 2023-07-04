@@ -32,36 +32,40 @@ public class MypageController {
 	UserRepository userRepository;
     
 	//「マイページ」の表示
-    @GetMapping("/mypage/{name}")
+    @GetMapping("/mypage/{email}")
     String index(
-    		@PathVariable("name")String name,
+    		@PathVariable("email")String email,
     		Model model) {
-    	Optional<User> userInfo = userRepository.findByName(name);
+    	Optional<User> userInfo = userRepository.findByEmail(email);
     	model.addAttribute("userInfo", userInfo.get());
     	
         return "mypage";
     }
     
     //「アカウント情報の編集」画面の表示
-    @GetMapping("/editaccount/{name}")
+    @GetMapping("/editaccount/{email}")
     String show(
-    		@PathVariable("name")String name,
+    		@PathVariable("email")String email,
     		Model model){
-    	Optional<User> userInfo = userRepository.findByName(name);
+    	Optional<User> userInfo = userRepository.findByEmail(email);
     	model.addAttribute("userInfo", userInfo.get());
     	return "editInfo";
     }
     
     //アカウントの編集
-    @PostMapping("/editaccount/{uname}")
+    @PostMapping("/editaccount/{email}")
     String update(
-    		@PathVariable("uname")String uname,
+    		@PathVariable("email")String email,
     		@RequestParam(name = "name", required = false) String name,
 			@RequestParam(name = "address", required = false) String address,
 			@RequestParam(name = "tel", required = false) String tel,
-			@RequestParam(name = "email", required = false) String email,
 			@RequestParam(name = "password", required = false) String password,
     		Model model){
+    	
+    	Optional<User> userInfo = userRepository.findByEmail(email);
+    	model.addAttribute("userInfo", userInfo.get());
+    	User newUserInfo = userInfo.get();
+    	
     	
     	List<String> messages = new ArrayList<>();
 
@@ -77,34 +81,25 @@ public class MypageController {
 			messages.add("電話番号は必須です");
 		}
 
-		if (email == null || email.equals("")) {
-			messages.add("メールアドレスは必須です");
-		} else {
-			Optional<User> registored = userRepository.findByEmail(email);
-
-			if (!registored.isEmpty()) {
-				messages.add("登録済みのメールアドレスです");
-			}
-		}
-
 		if (password == null || password.equals("")) {
 			messages.add("パスワードは必須です");
 		}
 
 		if (messages.size() > 0) {
 			model.addAttribute("messages", messages);
-
+			System.out.println(messages);
 			model.addAttribute("name", name);
 			model.addAttribute("address", address);
 			model.addAttribute("tel", tel);
-			model.addAttribute("email", email);
 			return "editInfo";
 		}
-    	
-		User newUserInfo = new User(name, address, tel, email, password);
+		newUserInfo.setName(name);
+		newUserInfo.setAddress(address);
+		newUserInfo.setTel(tel);
+		newUserInfo.setPassword(password);
 		userRepository.save(newUserInfo);
 
-		return "mypage";
+		return "redirect:/mypage/" + email;
     }
     
 }

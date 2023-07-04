@@ -10,5 +10,6 @@ import lombok.Data;
 @Data
 public class Account {
 	private String name; // 名前
+	private String email; // メールアドレス
 
 }
