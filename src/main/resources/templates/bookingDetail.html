@@ -22,11 +22,11 @@
 	</style>
 </head>
 <body>
-	<h1>[[${inn1.name}]] : 宿泊施設の詳細ページ</h1>
+	<th:block th:each="inn : ${inns}">
+	<h1>[[${inn.name}]] : 宿泊施設の詳細ページ</h1>
 	
 	<a href="javascript: history.back();" class="fixed_link">前のページに戻る</a>
 	
-	<th:block th:each="inn : ${inns}">
 	<img th:src="${inn.img1}">
 	<img th:src="${inn.img2}">
 	<img th:src="${inn.img3}">
@@ -53,6 +53,9 @@
 			<td>[[${inn.price}]]</td>
 		</tr>
 	</table>
+	
+	</th:block>
+	
 	<hr>
 	<h2>プラン検索</h2>
 	※今回は実装無し?

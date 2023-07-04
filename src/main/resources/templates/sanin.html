@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>県選択</title>
-
+<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<style>
 		
 		div {
@@ -54,7 +54,7 @@
 
 
 <body>
-
+<header th:replace="header"></header>
 	<h1>中国地方・県選択</h1>
 
 	<h2>こんにちは、[[${@account.name}]]さん</h2>
@@ -118,7 +118,8 @@
 	<!--	</form>-->
 
 
-
+<footer th:replace="footer">
+</footer>
 </body>
 
 </html>

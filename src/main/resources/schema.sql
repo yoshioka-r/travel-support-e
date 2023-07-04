@@ -45,6 +45,7 @@ CREATE TABLE inns
  (
    id SERIAL PRIMARY KEY,
    inn_id INTEGER,
+   name TEXT,
    img1 TEXT,
    img2 TEXT,
    img3 TEXT,
