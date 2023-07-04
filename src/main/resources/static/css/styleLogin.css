@@ -26,6 +26,8 @@ div{
 	background-color:  #45496a;
 	color: white;
 	text-align: center;
+	margin: 0;
+	opacity: 0.8;
 }
 
 table{
