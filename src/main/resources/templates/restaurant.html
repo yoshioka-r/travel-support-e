@@ -7,46 +7,45 @@
 	<link rel="stylesheet" type="text/css" href="/css/style2.css">
 	<style>
 		img {
-			display:inline-flex;
+			display: inline-flex;
 			height: 300px;
 			width: 300px;
 			object-fit: contain;
 		}
 
-		span{
+		span {
 			width: 900px;
-			display:inline-block;
+			display: inline-block;
 			vertical-align: top;
 		}
-		
 	</style>
-	
+
 </head>
 
 <body>
 	<header th:replace="header"></header>
 
-		<h1>[[${spot.name}]] : 周辺のおすすめ飲食店</h1>
-		
-<!--		<a href="/backSpot" class="fixed_link">前のページに戻る</a>-->
+	<h1 class="pref">[[${spot.name}]] : 周辺のおすすめ飲食店</h1>
+
+	<!--		<a href="/backSpot" class="fixed_link">前のページに戻る</a>-->
 
 
 	<th:block th:each="restaurant : ${restaurants}">
+		<div class="spot">
+			<img th:src="${restaurant.img}">
 
-	<img th:src="${restaurant.img}">
+			<span>
+				<br><br>
+				<font size="5"><b>[[${restaurant.name}]]</b></font><br><br>
+				<span class="outline">[[${restaurant.outline}]]</span><br>
+			</span>
+		</div>
+		<div style="display:block"></div>
 
-	<span>
-		<br><br>	
-		<font size="5"><b>[[${restaurant.name}]]</b></font><br><br>
-		[[${restaurant.outline}]]<br>
-	</span>
-	
-	<div style="display:block"></div>
 
-	
 	</th:block>
 
-<footer th:replace="footer">
+	<footer th:replace="footer">
 </body>
 
 </html>

@@ -5,21 +5,21 @@
 	<meta charset="UTF-8">
 	<title>周辺のおすすめ宿</title>
 	<link rel="stylesheet" type="text/css" href="/css/style2.css">
-	
+
 	<style>
-		img{
+		img {
 			display: inline-flex;
 			height: 300px;
 			width: 300px;
 			object-fit: contain;
 		}
-		
-		div{
+
+
+		span {
 			width: 900px;
-			display:inline-block;
+			display: inline-block;
 			vertical-align: top;
-			}
-			
+		}
 		
 	</style>
 </head>
@@ -27,25 +27,24 @@
 <body>
 	<header th:replace="header"></header>
 
-		<h1>[[${spot.name}]] : 周辺のおすすめ宿</h1>
-		
+	<h1 class="pref">[[${spot.name}]] : 周辺のおすすめ宿</h1>
+
 
 	<th:block th:each="inn : ${inns}">
-	
-	<img th:src="${inn.img}">
-	
-	<div>
-		<br><br>
-		<font size="5"><b>[[${inn.name}]]</b></font><br><br>
-		[[${inn.outline}]]<br><br>
-		<a th:href="|/bookingshow/${inn.id}|">詳細はこちら</a>	
-	</div>
+		<div class="spot">
+			<img th:src="${inn.img}">
 
-	<div style="display:block"></div>
-	
+			<span>
+				<br><br>
+				<font size="5"><b>[[${inn.name}]]</b></font><br><br>
+				<span class="outline">[[${inn.outline}]]</span><br><br>
+				<a th:href="|/bookingshow/${inn.id}|" style="margin-left: 20px">詳細はこちら</a>
+			</span>
+		</div>
+		<div style="display:block"></div>
 	</th:block>
 
-<footer th:replace="footer">
+	<footer th:replace="footer">
 </body>
 
 </html>

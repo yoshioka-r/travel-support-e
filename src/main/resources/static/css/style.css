@@ -102,6 +102,6 @@ button {
 }
  /*送信ボタン(マウスオーバー時) */
 button:hover {
-	color: white;
-	background-color: #f1b2b2;
+	color: #45496a;
+	background-color: sandybrown;
 }
