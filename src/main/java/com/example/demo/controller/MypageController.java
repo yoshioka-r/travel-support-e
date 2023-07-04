@@ -91,6 +91,7 @@ public class MypageController {
 			model.addAttribute("name", name);
 			model.addAttribute("address", address);
 			model.addAttribute("tel", tel);
+			model.addAttribute("password", password);
 			return "editInfo";
 		}
 		newUserInfo.setName(name);

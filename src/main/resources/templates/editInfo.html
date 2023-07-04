@@ -7,13 +7,14 @@
 <body>
 	<h1>アカウント情報の編集</h1>
 	<span>メールアドレスは別画面から変更してください</span>
-	<th:block th:if="!(${message}.isEmpty())"th:each="error:${message}">
-		[[${error}]]<br>
-	</th:block>
+	<ul th:each="error:${messages}">
+		<li>[[${error}]]</li>
+	</ul>
+	
 	<form th:action="|/editaccount/${@account.email}|" method="post">
 		<table border="1">
 			<tr>
-				<th>名前</th>
+				<th>ユーザ名</th>
 				<td><input type="text" name="name" th:value="${userInfo.name}"></td>
 			</tr>
 			<tr>
@@ -30,7 +31,7 @@
 			</tr>
 			<tr>
 				<th>パスワード</th>
-				<td>※セキュリティのため非表示にしています</td>
+				<td><input type="text" name="password" th:value="${userInfo.password}"></td>
 			</tr>
 		</table>
 	<input type="submit" value="アカウント情報を更新する">
