@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>[[${pref.name}]]</title>
+	<link rel="stylesheet" type="text/css" href="/css/style2.css">
 
 	<style>
 		img {
@@ -19,23 +20,17 @@
 			vertical-align: top;
 		}
 		
-		.fixed_link{
-			position: fixed;
-			top: 20px;
-			right: 20px;
-			background-color: yellow;
-			font-size: 20px;
-		}
 		
 	</style>
 
 </head>
 
 <body>
+	<header th:replace="header"></header>
 	<h1>[[${pref.name}]]おすすめスポット</h1>
 	
 	
-	<a href="/back" class="fixed_link">前のページに戻る</a>
+<!--	<a href="/back" class="fixed_link">前のページに戻る</a>-->
 	
 	<th:block th:each="spot:${spots}">
 
@@ -56,7 +51,7 @@
 
 	</th:block>
 
-
+<footer th:replace="footer">
 </body>
 
 </html>

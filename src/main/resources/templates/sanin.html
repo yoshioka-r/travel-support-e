@@ -9,45 +9,50 @@
 		
 		div {
 			position: absolute;
-			top: 25px;
-			left: 400px;
-			width: 800px;
-			height: 800px;
+			top: 200px;
+			left: 550px;
+			width: 700px;
+			height: 600px;
+			text-align: center;
+			display: flex;
+			align-items: center;
 		}
 		
 		img {
-			width: 900px;
+			text-align: center;
+			display: flex;
+			align-items: center;
 			height: auto;
 		}
 		
 		div #tottori {
 			position: absolute;
-			top: 260px;
-			left: 700px;
+			top: 150px;
+			left: 500px;
 		}
 
 		div #shimane {
 			position: absolute;
-			top: 350px;
-			left: 380px;
+			top: 230px;
+			left: 230px;
 		}
 
 		div #okayama {
 			position: absolute;
-			top: 400px;
-			left: 680px;
+			top: 270px;
+			left: 480px;
 		}
 
 		div #hiroshima {
 			position: absolute;
-			top: 480px;
-			left: 430px;
+			top: 310px;
+			left: 300px;
 		}
 
 		div #yamaguchi {
 			position: absolute;
-			top: 560px ;
-			left: 150px;
+			top: 380px ;
+			left: 70px;
 		}
 	</style>
 </head>
@@ -55,14 +60,22 @@
 
 <body>
 <header th:replace="header"></header>
+<<<<<<< HEAD
 	<h1>中国地方・県選択</h1>
 
 	<h2>こんにちは、[[${@account.name}]]さん</h2>
 	<a th:href="|/mypage/${@account.email}|">マイページへ</a>
 
+=======
+	
+	<h1 style="text-align: center; background-color: sandybrown; margin: 0px;">中国地方・県選択</h1>
+	<h2 style="text-align: center; background-color: sandybrown; margin: 0px;">こんにちは、[[${@account.name}]]さん</h2>
+	
+	
+>>>>>>> refs/heads/honoka
 	<div>
 		
-		<img src="../img/sanin.png"></img>
+		<img src="../img/sanin.png" width="700" height="700"></img>
 
 		
 		<form action="/pref/1" method="get">

@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>スポット詳細</title>
+	<link rel="stylesheet" type="text/css" href="/css/style2.css">
 	
 	<style>
 		img{
@@ -13,24 +14,16 @@
 			margin:0px 10px;
 		}
 		
-		.fixed_link{
-			position: fixed;
-			top: 20px;
-			right: 20px;
-			background-color: yellow;
-			font-size: 20px;
-		}
 		
 	</style>
 	
 </head>
 
 <body>
+	<header th:replace="header"></header>
 
 <th:block th:each="spot : ${spots}">
 		<h1>[[${spot.name}]] : 詳細</h1>
-		
-		<a href="javascript: history.back();" class="fixed_link">前のページに戻る</a>
 
 <table border="1">
 	<tr><th colspan="2">[[${spot.name}]]</th></tr>
@@ -55,7 +48,7 @@
 <img th:src="${spot.img3}">
 
 </th:block>
-
+<footer th:replace="footer">
 </body>
 
 </html>
