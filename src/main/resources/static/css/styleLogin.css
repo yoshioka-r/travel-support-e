@@ -6,6 +6,7 @@ body{
 	position: relative;
 }
 
+
 div{
 	width: 600px;
 	height: 400px;
@@ -27,13 +28,6 @@ div{
 	text-align: center;
 }
 
-/*table, button, a, span{*/
-/*	position: absolute;*/
-/*	top: 50%;*/
-/*	left: 50%;*/
-/*	transform: translate(-50%,-50%);*/
-/*}*/
-
 table{
 	position: absolute;
 	width: 600px;
@@ -43,13 +37,23 @@ table{
 	font-size: 20px;
 }
 
-span{
+th{
+	font-size: 20px;
+}
+
+td input{
+	font-size: 20px;
+}
+
+div .error{
 	position: absolute;
-	top: 35%;
+	top: 250px;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	font-size: 15px;
-}
+	font-size: 17px;
+	opacity: 1;
+	font-weight: bold;
+	}
 
 button{
 	position: absolute;
@@ -57,16 +61,26 @@ button{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+button:hover{
+	background-color:#45496a;
+	color: white;
 }
 
 a{
 	position: absolute;
-	top: 80%;
+	top: 85%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	font-size: 20px;
 	float: left;
 }
+
 /* ヘッダー、ナビゲーション内リンク */
 /*header a, nav a {*/
 /*	color: #ffffff;*/

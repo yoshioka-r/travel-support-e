@@ -61,28 +61,34 @@ public class UserController {
 			// メールアドレスとパスワードが一致しなかった場合エラーとする
 			Optional<User> optionalUser = userRepository.findByEmailAndPassword(email, password);
 
+			Optional<User> record = userRepository.findByEmail(email);
+			
 			if (optionalUser.isEmpty() == false) {
 				User user = optionalUser.get();
 				account.setName(user.getName());
 				account.setEmail(user.getEmail());
 				
 				return "sanin";
-
+			}else if(record.isEmpty() == false) {
+				User user = record.get();
+					if(!user.getPassword().equals(password)) {
+						message.add("パスワードが異なります");
+					}
 			} else {
-				message.add("新規登録してください");
+				message.add("登録情報がありません。新規登録してください");
 			}
 		}
 
 
-		Optional<User> record = userRepository.findByEmail(email);
+		
 
-		if (record.isEmpty() == false) {
-			User user = record.get();
-
-			if (!user.getPassword().equals(password)) {
-				message.add("パスワードが異なります");
-			}
-		}
+//		if (record.isEmpty() == false) {
+//			User user = record.get();
+//
+//			if (!user.getPassword().equals(password)) {
+//				message.add("パスワードが異なります");
+//			}
+//		}
 
 		m.addAttribute("message", message);
 		m.addAttribute("email", email);
