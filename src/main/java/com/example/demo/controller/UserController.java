@@ -30,7 +30,7 @@ public class UserController {
 	UserRepository userRepository;
 
 	//ログイン画面を表示
-	@GetMapping("/login")
+	@GetMapping({"/login", "/logout"})
 	public String index(
 			Model model) {
 		session.invalidate();
@@ -154,4 +154,5 @@ public class UserController {
 		return "redirect:/login";
 
 	}
+	
 }

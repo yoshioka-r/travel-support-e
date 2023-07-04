@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>周辺のおすすめ飲食店</title>
-	
+	<link rel="stylesheet" type="text/css" href="/css/style2.css">
 	<style>
 		img {
 			display:inline-flex;
@@ -19,25 +19,17 @@
 			vertical-align: top;
 		}
 		
-		.fixed_link{
-			position: fixed;
-			top: 20px;
-			right: 20px;
-			background-color: yellow;
-			font-size: 20px;
-		}
-		
 	</style>
 	
 </head>
 
 <body>
+	<header th:replace="header"></header>
 
 		<h1>[[${spot.name}]] : 周辺のおすすめ飲食店</h1>
 		
 <!--		<a href="/backSpot" class="fixed_link">前のページに戻る</a>-->
 
-		<a href="javascript: history.back();" class="fixed_link">前のページに戻る</a>
 
 	<th:block th:each="restaurant : ${restaurants}">
 
@@ -54,7 +46,7 @@
 	
 	</th:block>
 
-
+<footer th:replace="footer">
 </body>
 
 </html>
