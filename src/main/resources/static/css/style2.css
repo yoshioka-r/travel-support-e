@@ -21,6 +21,19 @@ header a{
 	padding-left: 15px;
 }
 
+main{
+	display: inline-block;
+	position: absolute;
+	right: 80px;
+	top: 40px;
+}
+
+main img{
+	width:80px;
+	height: auto;
+	
+}
+
 footer{
 	width: 100%;
 	height: 100px;
@@ -39,6 +52,35 @@ footer ul li a{
 	color: white;
 }
 
+.spot{
+	background-color: bisque;
+	margin: 45px 0px;
+}
+
+body{
+	text-align: center;
+}
+
+span{
+	font-size: 20px;
+}
+
+span a{
+	margin-left:95px;
+}
+
+.pref{
+	background-color: sandybrown;
+	margin: 0;
+	height: 70px;
+	padding-top: 25px;
+}
+
+.outline{
+	text-indent: 20px;
+	text-align:left;
+	padding-left: 50px;
+}
 
 /* ヘッダー、ナビゲーション内リンク */
 /*header a, nav a {*/
@@ -66,15 +108,22 @@ footer ul li a{
 /*	border: 1px solid #7d8bae;*/
 /*}*/
 /* 表 */
-/*table {*/
-/*    margin: 5px auto;*/
-/*    min-width: 800px;*/
-/*}*/
-/* 表見出しセル */
-/*table th {*/
-/*	background: #7d8bae;*/
-/*	color: #ffffff;*/
-/*}*/
+table {
+	text-align: center;
+	font-size: 25px;
+    margin: 30px auto;
+    min-width: 900px;
+}
+ /*表見出しセル */
+table th {
+	background: #7d8bae;
+	color: #ffffff;
+}
+
+td, th{
+	padding: 20px;
+}
+
 /* 送信ボタン */
 /*button {*/
 /*	margin: 2px;*/

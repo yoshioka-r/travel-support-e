@@ -2,6 +2,8 @@
 	<h1>旅行支援サイト</h1>
 	<span th:text="${@account.name}+' さんがログイン中'"></span><br>
 	<a href="/logout">ログアウト</a>
-	<a th:href="|/mypage/${@account.name}|">マイページへ</a>
 	<a href="javascript: history.back();" >前のページに戻る</a>
+	<main>
+	<a th:href="|/mypage/${@account.name}|"><img src="/img/penguin.png"></a>
+	</main>
 </header>

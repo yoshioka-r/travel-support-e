@@ -26,12 +26,16 @@ div{
 	background-color:  #45496a;
 	color: white;
 	text-align: center;
+	margin: 0;
+	opacity: 0.8;
 }
 
 h2{
-	top: 0;
+	margin: 0;
+	padding: 13px;
 	text-align: center;
-	background-color: lightsteelblue;
+	color: white;
+	background-color: #45496a;
 	height: 40px;
 }
 
