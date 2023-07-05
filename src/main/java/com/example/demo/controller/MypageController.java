@@ -118,14 +118,7 @@ public class MypageController {
     String addnote(
     		@PathVariable("email")String email,
     		Model model){
-    	List<String>pathForSave = null;
-    	Optional<User> userInfo = userRepository.findByEmail(email);
-    	User user = userInfo.get();
-    	Integer userId = user.getId();
-    	List<Note> noteList = noteRepository.findAllByAuthorId(userId);
-//    	model.addAttribute(pathForSave);
-    	model.addAttribute(noteList);
-    	return "addNote";
+    	return "addNote2";
     }
     
     //トラベルノートを追加する
